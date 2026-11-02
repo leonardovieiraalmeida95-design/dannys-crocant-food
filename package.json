@@ -1,0 +1,9 @@
+{
+  "name": "dannys-crocant-food",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site da Danny's Crocant Food",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
