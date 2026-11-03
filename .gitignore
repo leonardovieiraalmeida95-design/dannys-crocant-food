@@ -1,4 +1,7 @@
 node_modules/
-.env
-.DS_Store
-Thumbs.db
+.next/
+out/
+public/assets/
+public/img/
+*.tsbuildinfo
+npm-debug.log*

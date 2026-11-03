@@ -1,9 +1,11 @@
-# Danny's Crocant Food
+# Danny's Crocant Food — Frango crocante, história de família
 
-Site estático da Danny's com cardápio online integrado, história da marca e unidades.
+Next.js + TypeScript + Tailwind CSS. O conteúdo e as interações existentes foram preservados. Os componentes usam TypeScript; as interações anteriores permanecem em um módulo JavaScript de compatibilidade.
 
-## Rodar localmente
+## Desenvolvimento
 
-Requer Node.js. Na pasta do projeto, execute `npm start` e acesse http://127.0.0.1:4173.
+`npm install` e `npm run dev`. Abra http://localhost:3000/dannys-crocant-food/.
 
-O servidor atende somente à própria máquina e disponibiliza a página e a logo.
+## Publicação
+
+A branch main compila a exportação estática via GitHub Actions e atualiza os arquivos do Pages. A Vercel usa a raiz do domínio ao detectar seu ambiente de build. Edite os arquivos em src, não o index.html gerado.
