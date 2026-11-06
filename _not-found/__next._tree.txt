@@ -2,4 +2,4 @@
 :HL["https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"g0B7tK4O4S5bGon77IS75","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"9khLVlFdMy93lF2psRDev","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
