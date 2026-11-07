@@ -4,6 +4,22 @@ export function initializeSite() {
 if (initialized) return;
 initialized = true;
 
+const mobileMenu = document.querySelector('.mobile-nav');
+if (mobileMenu) {
+  mobileMenu.addEventListener('click', (event) => {
+    if (event.target.closest('a')) mobileMenu.open = false;
+  });
+  document.addEventListener('click', (event) => {
+    if (!mobileMenu.contains(event.target)) mobileMenu.open = false;
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && mobileMenu.open) {
+      mobileMenu.open = false;
+      mobileMenu.querySelector('summary').focus();
+    }
+  });
+}
+
     (function(){
       var elements=document.querySelectorAll('.hero-copy > *, .hero-art, .hero-foot > *, .menu-side > *, .menu-side .menu-item, .menu-frame-wrap, .story-section .eyebrow, .story-section h2, .story-lede, .chapter, .locations .section-head > *, .location-card, .location-aside, .social-inner > *');
       elements.forEach(function(element,index){element.setAttribute('data-reveal','');element.style.setProperty('--reveal-delay',((index%5)*75)+'ms')});
