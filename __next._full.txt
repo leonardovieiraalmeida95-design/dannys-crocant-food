@@ -8,9 +8,9 @@ e:"MetadataBoundary"
 f:I[97367,["$2"],"$e"]
 10:"$Sreact.suspense"
 12:I[68027,["$2"],"default",1]
-:HL["/dannys-crocant-food/_next/static/chunks/1cxo7433eio-e.css","style"]
+:HL["/dannys-crocant-food/_next/static/chunks/28ltv8w2iqcw_.css","style"]
 :HL["/dannys-crocant-food/assets/fonts/fonts.css","style"]
-6:T2f37,
+6:T34a6,
   <header class="wrap topbar">
     <a class="brand" href="#top" aria-label="Danny's Jaguariaíva — início"><img class="brand-logo" width="68" height="68" src="assets/danny-logo.svg" alt="Danny's Jaguariaíva" /></a>
     <nav class="topnav" aria-label="Navegação principal">
@@ -30,7 +30,7 @@ f:I[97367,["$2"],"$e"]
   </header>
 
   <main id="conteudo" tabindex="-1"><span id="top"></span>
-    <section class="hero">
+    <section class="hero"><div class="abstract-scene abstract-hero" aria-hidden="true"><picture><source media="(max-width: 650px)" srcset="/dannys-crocant-food/assets/backgrounds/golden-folds-mobile.webp" /><img src="/dannys-crocant-food/assets/backgrounds/golden-folds-wide.webp" alt="" width="1536" height="1024" loading="eager" decoding="async" fetchpriority="high" /></picture></div>
       <div class="wrap hero-grid">
         <div class="hero-copy">
           <div class="eyebrow">Desde Jaguariaíva · Paraná</div>
@@ -85,7 +85,7 @@ f:I[97367,["$2"],"$e"]
       </div>
     </section>
 
-    <section class="section menu-section" id="cardapio">
+    <section class="section menu-section" id="cardapio"><div class="abstract-scene abstract-menu" aria-hidden="true"><picture><source media="(max-width: 650px)" srcset="/dannys-crocant-food/assets/backgrounds/amber-ribbons-mobile.webp" /><img src="/dannys-crocant-food/assets/backgrounds/amber-ribbons-wide.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async"  /></picture></div>
       <div class="wrap menu-layout">
         <div class="menu-side">
           <div class="eyebrow">Escolha seu momento</div>
@@ -108,7 +108,7 @@ f:I[97367,["$2"],"$e"]
       </div>
     </section>
 
-    <section class="section story-section" id="historia">
+    <section class="section story-section" id="historia"><div class="abstract-scene abstract-story" aria-hidden="true"><picture><source media="(max-width: 650px)" srcset="/dannys-crocant-food/assets/backgrounds/amber-ribbons-mobile.webp" /><img src="/dannys-crocant-food/assets/backgrounds/amber-ribbons-wide.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async"  /></picture></div>
       <div class="wrap">
         <div class="eyebrow">De um sonho à mesa</div>
         <h2>Uma história com<br /><em>gosto de coragem.</em></h2>
@@ -123,7 +123,7 @@ f:I[97367,["$2"],"$e"]
       </div>
     </section>
 
-    <section class="section locations" id="unidades">
+    <section class="section locations" id="unidades"><div class="abstract-scene abstract-locations" aria-hidden="true"><picture><source media="(max-width: 650px)" srcset="/dannys-crocant-food/assets/backgrounds/golden-folds-mobile.webp" /><img src="/dannys-crocant-food/assets/backgrounds/golden-folds-wide.webp" alt="" width="1536" height="1024" loading="lazy" decoding="async"  /></picture></div>
       <div class="wrap">
         <div class="section-head">
           <div><div class="eyebrow">Duas cidades, um só sabor</div><h2>Encontre sua<br /><em>Danny's.</em></h2></div>
@@ -159,14 +159,14 @@ f:I[97367,["$2"],"$e"]
   <a class="floating-order" href="https://pedido.anota.ai/loja/Dannys" target="_blank" rel="noopener noreferrer" aria-label="Fazer pedido no cardápio online">🍗 Peça agora ↗</a>
   
 5:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[[["$","div",null,{"className":"min-h-screen","dangerouslySetInnerHTML":{"__html":"$6"}}],"$L7","$L8"],["$L9"],"$La"]}],"p":false,"v":null}}]]
-0:{"P":null,"c":["",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/dannys-crocant-food/_next/static/chunks/1cxo7433eio-e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/dannys-crocant-food/_next/static/chunks/3qfy96eoyh-ek.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"pt-BR","children":[["$","head",null,{"children":[["$","meta",null,{"httpEquiv":"Content-Security-Policy","content":"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://pedido.anota.ai; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests"}],["$","link",null,{"rel":"stylesheet","href":"/dannys-crocant-food/assets/fonts/fonts.css"}]]}],["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#conteudo","children":"Pular para o conteúdo"}],["$","aside",null,{"className":"demo-notice","aria-label":"Sobre esta demonstração","children":["$","div",null,{"className":"wrap","children":[["$","strong",null,{"children":"Demonstração independente"}],["$","span",null,{"children":"Proposta para apresentação à Danny’s. Este não é o site oficial da empresa."}],["$","a",null,{"href":"/dannys-crocant-food/termos/","children":"Sobre a proposta ↗"}]]}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","header",null,{"className":"wrap information-header","children":["$","a",null,{"className":"btn","href":"/dannys-crocant-food/","children":"← Voltar à demonstração"}]}],["$","main",null,{"id":"conteudo","className":"wrap information-page","tabIndex":-1,"children":[["$","p",null,{"className":"eyebrow","children":"Proposta independente · 7 de novembro de 2026"}],["$","h1",null,{"children":"Essa página saiu da mesa."}],[["$","p",null,{"className":"information-lede","children":"Erro 404 · Não encontramos o endereço solicitado. Você pode voltar à demonstração ou consultar as informações de privacidade."}],["$","a",null,{"className":"btn btn-primary","href":"/dannys-crocant-food/","children":"Voltar ao início →"}]]]}],["$","footer",null,{"className":"wrap information-footer","children":["$","nav",null,{"aria-label":"Informações sobre a demonstração","children":[["$","a",null,{"href":"/dannys-crocant-food/privacidade/","children":"Privacidade e cookies"}],["$","a",null,{"href":"/dannys-crocant-food/termos/","children":"Condições de uso"}],["$","a",null,{"href":"/dannys-crocant-food/","children":"Página inicial"}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","$Lf",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":"$L11"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$12",[["$","link","0",{"rel":"stylesheet","href":"/dannys-crocant-food/_next/static/chunks/1cxo7433eio-e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"-kspmTL-fl6VsvNFUM6nE"}
-13:"/dannys-crocant-food/_next/static/chunks/23li2la_c5_-6.js"
+0:{"P":null,"c":["",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/dannys-crocant-food/_next/static/chunks/28ltv8w2iqcw_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/dannys-crocant-food/_next/static/chunks/3qfy96eoyh-ek.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"pt-BR","children":[["$","head",null,{"children":[["$","meta",null,{"httpEquiv":"Content-Security-Policy","content":"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://pedido.anota.ai; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests"}],["$","link",null,{"rel":"stylesheet","href":"/dannys-crocant-food/assets/fonts/fonts.css"}]]}],["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#conteudo","children":"Pular para o conteúdo"}],["$","aside",null,{"className":"demo-notice","aria-label":"Sobre esta demonstração","children":["$","div",null,{"className":"wrap","children":[["$","strong",null,{"children":"Demonstração independente"}],["$","span",null,{"children":"Proposta para apresentação à Danny’s. Este não é o site oficial da empresa."}],["$","a",null,{"href":"/dannys-crocant-food/termos/","children":"Sobre a proposta ↗"}]]}]}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","header",null,{"className":"wrap information-header","children":["$","a",null,{"className":"btn","href":"/dannys-crocant-food/","children":"← Voltar à demonstração"}]}],["$","main",null,{"id":"conteudo","className":"wrap information-page","tabIndex":-1,"children":[["$","p",null,{"className":"eyebrow","children":"Proposta independente · 7 de novembro de 2026"}],["$","h1",null,{"children":"Essa página saiu da mesa."}],[["$","p",null,{"className":"information-lede","children":"Erro 404 · Não encontramos o endereço solicitado. Você pode voltar à demonstração ou consultar as informações de privacidade."}],["$","a",null,{"className":"btn btn-primary","href":"/dannys-crocant-food/","children":"Voltar ao início →"}]]]}],["$","footer",null,{"className":"wrap information-footer","children":["$","nav",null,{"aria-label":"Informações sobre a demonstração","children":[["$","a",null,{"href":"/dannys-crocant-food/privacidade/","children":"Privacidade e cookies"}],["$","a",null,{"href":"/dannys-crocant-food/termos/","children":"Condições de uso"}],["$","a",null,{"href":"/dannys-crocant-food/","children":"Página inicial"}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$Lc",null,{"children":"$Ld"}],["$","$Lf",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":"$L11"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$12",[["$","link","0",{"rel":"stylesheet","href":"/dannys-crocant-food/_next/static/chunks/28ltv8w2iqcw_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"3ra4hyeHA8O29kzOSMppf"}
+13:"/dannys-crocant-food/_next/static/chunks/2g09lh8ckl_ip.js"
 14:I[4138,["$2","$13"],"default"]
 15:I[72050,["$2","$13"],"default"]
 16:I[97367,["$2"],"OutletBoundary"]
 7:["$","$L14",null,{}]
 8:["$","$L15",null,{}]
-9:["$","script","script-0",{"src":"/dannys-crocant-food/_next/static/chunks/23li2la_c5_-6.js","async":true,"nonce":"$undefined"}]
+9:["$","script","script-0",{"src":"/dannys-crocant-food/_next/static/chunks/2g09lh8ckl_ip.js","async":true,"nonce":"$undefined"}]
 a:["$","$L16",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
 d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#260d10"}]]
 18:I[27201,["$2"],"IconMark"]
