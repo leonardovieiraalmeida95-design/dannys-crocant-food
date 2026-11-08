@@ -8,9 +8,9 @@ d:"MetadataBoundary"
 e:I[97367,["$2"],"$d"]
 f:"$Sreact.suspense"
 11:I[68027,["$2"],"default",1]
-:HL["/dannys-crocant-food/_next/static/chunks/1cili2mmpatwh.css","style"]
+:HL["/dannys-crocant-food/_next/static/chunks/1840g3lh4xag1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap","style"]
-6:T285e,
+6:T2e47,
   <header class="wrap topbar">
     <a class="brand" href="#top" aria-label="Danny's Jaguariaíva — início"><img class="brand-logo" src="assets/danny-logo.svg" alt="Danny's Jaguariaíva" /></a>
     <nav class="topnav" aria-label="Navegação principal">
@@ -43,7 +43,34 @@ f:"$Sreact.suspense"
         </div>
         <div class="hero-art" aria-label="Selo ilustrado da Danny's com mascote de frango">
           <div class="hero-orbit"></div>
-          <img class="brand-logo-large" src="assets/danny-logo.svg" alt="Logo Danny's Jaguariaíva" />
+          <svg class="brand-logo-large" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 188" width="564" height="564" role="img" aria-labelledby="hero-logo-title hero-logo-desc">
+  <title id="hero-logo-title">Danny’s Jaguariaíva</title>
+  <desc id="hero-logo-desc">Logo com círculo vermelho e letras claras, reconstruída em formas vetoriais a partir da referência fornecida.</desc>
+  <circle cx="94" cy="94" r="94" fill="#c90020"/>
+  <g fill="#fafefc" fill-rule="evenodd">
+    <path d="M26 65h14v45l-14 6Zm4 4v40l6-3V69Z"/>
+    <path d="M50 65h14.5v50H60v-4h-6v4h-4Zm4 4v38h6V69Z"/>
+    <path d="M75 65h14v50h-4V69h-6v46h-4Z"/>
+    <path d="M99 65h14v50h-4V69h-6v46h-4Z"/>
+    <path d="M123 65h4.5v8l3 3 3-3v-8h4.5v9.5l-5.5 5V115H128V79.5l-5-5Z"/>
+    <path d="M141 64h3v6l-2 3v-3h-1Z"/>
+    <path d="M148 65h14v4h-10v3h10v43h-14v-4h10V76h-10Z"/>
+  </g>
+  <!-- Outlined lettering: no embedded bitmap or external font dependency. -->
+  <g fill="none" stroke="#fafefc" stroke-width=".85" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M28.5 119.5v5.1q0 2-1.9 2-1.3 0-1.8-.9"/>
+    <path d="m37 126.5 3.2-7 3.2 7m-5.3-2.3h4.2"/>
+    <path d="M58.2 120.5a3.5 3.5 0 1 0 .2 5v-2.2h-3"/>
+    <path d="M66.8 119.5v4.5q0 2.6 2.9 2.6t2.9-2.6v-4.5"/>
+    <path d="m81 126.5 3.2-7 3.2 7m-5.3-2.3h4.2"/>
+    <path d="M96 126.5v-7h2.7q2.2 0 2.2 2t-2.2 2H96m2.4 0 2.7 3"/>
+    <path d="M110 119.5v7"/>
+    <path d="m118 126.5 3.2-7 3.2 7m-5.3-2.3h4.2"/>
+    <path d="M133 119.5v7m-.3-8.8 1.3-1.5"/>
+    <path d="m142 119.5 3.2 7 3.2-7"/>
+    <path d="m155.5 126.5 3.2-7 3.2 7m-5.3-2.3h4.2"/>
+  </g>
+</svg>
           <div class="art-note">Família · sabor · crocância</div>
           <div class="art-stamp">FEITO<br />COM<br />CORAGEM</div>
         </div>
@@ -131,7 +158,7 @@ f:"$Sreact.suspense"
   <a class="floating-order" href="https://pedido.anota.ai/loja/Dannys?from=site&referer=https://linktr.ee/" target="_blank" rel="noopener noreferrer" aria-label="Fazer pedido no cardápio online">🍗 Peça agora ↗</a>
   
 5:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[[["$","div",null,{"className":"min-h-screen","dangerouslySetInnerHTML":{"__html":"$6"}}],"$L7"],["$L8"],"$L9"]}],"p":false,"v":null}}]]
-0:{"P":null,"c":["",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/dannys-crocant-food/_next/static/chunks/1cili2mmpatwh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/dannys-crocant-food/_next/static/chunks/3qfy96eoyh-ek.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"pt-BR","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","$Le",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":"$L10"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/dannys-crocant-food/_next/static/chunks/1cili2mmpatwh.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"ky9GMQMQP5gZWcLMJSXXK"}
+0:{"P":null,"c":["",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/dannys-crocant-food/_next/static/chunks/1840g3lh4xag1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/dannys-crocant-food/_next/static/chunks/3qfy96eoyh-ek.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"pt-BR","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","$Le",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":"$L10"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/dannys-crocant-food/_next/static/chunks/1840g3lh4xag1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"iK7_uFWSs9Rdls_1x9YdA"}
 12:"/dannys-crocant-food/_next/static/chunks/1builcqhubuux.js"
 13:I[72050,["$2","$12"],"default"]
 14:I[97367,["$2"],"OutletBoundary"]
