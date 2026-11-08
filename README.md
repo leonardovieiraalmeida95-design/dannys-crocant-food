@@ -1,6 +1,6 @@
 # Danny's Crocant Food — Frango crocante, história de família
 
-Next.js + TypeScript + Tailwind CSS. O conteúdo e as interações existentes foram preservados. Os componentes usam TypeScript; as interações anteriores permanecem em um módulo JavaScript de compatibilidade.
+Next.js + TypeScript + Tailwind CSS + GSAP. As animações de entrada e rolagem ficam em `src/components/site-interactions.tsx`, com ScrollTrigger e limpeza das animações ao desmontar o componente ou mudar os breakpoints. A preferência por movimento reduzido desativa a abertura e os efeitos. O conteúdo continua disponível sem JavaScript.
 
 ## Desenvolvimento
 
