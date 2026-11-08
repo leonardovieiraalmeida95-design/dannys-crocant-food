@@ -1,4 +1,4 @@
-:HL["/dannys-crocant-food/_next/static/chunks/0jg040vb47jda.css","style"]
-:HL["https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap","style"]
+:HL["/dannys-crocant-food/_next/static/chunks/1cxo7433eio-e.css","style"]
+:HL["/dannys-crocant-food/assets/fonts/fonts.css","style"]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"0RCEVQ_aGTJNl05pBDyF3","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"-kspmTL-fl6VsvNFUM6nE","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
