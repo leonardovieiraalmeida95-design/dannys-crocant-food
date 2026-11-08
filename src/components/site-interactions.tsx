@@ -68,7 +68,10 @@ export default function SiteInteractions() {
           .fromTo(".intro-label", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: .4 }, .1)
           .fromTo(".intro-line i", { scaleX: 0 }, { scaleX: 1, duration: .75, ease: "power2.inOut" }, .05)
           .to(intro, { yPercent: -100, duration: .65, ease: "power3.inOut", onComplete: finishIntro }, .8);
-        failSafe = setTimeout(finishIntro, 2400);
+        failSafe = setTimeout(() => {
+          finishIntro();
+          entrance.progress(1);
+        }, 2400);
       }
 
       const start = playIntro ? 1.05 : 0;
@@ -114,6 +117,10 @@ export default function SiteInteractions() {
       });
 
       if (desktop) {
+        gsap.to(".abstract-hero picture", {
+          yPercent: 5, ease: "none",
+          scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1.4 },
+        });
         gsap.to(".art-stamp", {
           y: -24, rotation: 5, ease: "none",
           scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: 1 },
