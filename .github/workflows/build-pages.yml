@@ -25,10 +25,13 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci --no-audit --no-fund
 
       - name: Export static site
         run: npm run build
+
+      - name: Audit demonstration output
+        run: node --test scripts/audit-site.test.mjs
 
       - name: Publish static export into Pages source
         run: |

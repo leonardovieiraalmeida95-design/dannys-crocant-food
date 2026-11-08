@@ -12,6 +12,18 @@ export default function SiteInteractions() {
 
   useLayoutEffect(() => {
     const events = new AbortController();
+    const notice = document.querySelector<HTMLElement>(".demo-notice");
+    const updateNotice = () => document.documentElement.style.setProperty("--notice-height", `${notice?.offsetHeight ?? 0}px`);
+    updateNotice();
+    let refreshFrame = 0;
+    const layoutObserver = new ResizeObserver(() => {
+      updateNotice();
+      cancelAnimationFrame(refreshFrame);
+      refreshFrame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    });
+    if (notice) layoutObserver.observe(notice);
+    const content = document.querySelector("main");
+    if (content) layoutObserver.observe(content);
     const menu = document.querySelector<HTMLDetailsElement>(".mobile-nav");
     document.addEventListener("click", (event) => {
       if (!menu || !(event.target instanceof Element)) return;
@@ -128,6 +140,8 @@ export default function SiteInteractions() {
     return () => {
       alive = false;
       events.abort();
+      layoutObserver.disconnect();
+      cancelAnimationFrame(refreshFrame);
       media.revert();
       if (failSafe) clearTimeout(failSafe);
     };
@@ -138,6 +152,7 @@ export default function SiteInteractions() {
       <div className="intro-content">
         <img className="intro-mark" src="assets/danny-logo.svg" alt="Danny’s Jaguariaíva" width="144" height="144" />
         <p className="intro-label">O sabor tem uma história.</p>
+        <p className="intro-demo">Proposta independente · Demonstração</p>
         <div className="intro-line" aria-hidden="true"><i /></div>
         <button type="button">Entrar no site <span aria-hidden="true">↗</span></button>
       </div>
