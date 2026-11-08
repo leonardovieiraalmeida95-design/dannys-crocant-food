@@ -11,7 +11,7 @@ export default function PrivacyPage() {
   return <InformationPage title="Privacidade e cookies">
     <p className="information-lede">Este aviso descreve esta demonstração independente de site, desenvolvida para apresentação à Danny’s. Não é a política de privacidade da empresa nem substitui as políticas dos serviços de pedidos.</p>
     <h2>O que a demonstração faz</h2>
-    <p>O site não possui cadastro, formulário de contato, lista de e-mails, checkout ou processamento de pagamentos. Não instalamos Google Analytics, pixels de publicidade nem cookies próprios para medir sua navegação. As fontes e as imagens são servidas junto com o site.</p>
+    <p>O site não possui cadastro, formulário de contato, lista de e-mails, checkout ou processamento de pagamentos. Não instalamos Google Analytics, pixels de publicidade nem cookies próprios para medir sua navegação. As fontes, as imagens e o vídeo ilustrativo são servidos junto com o site. O vídeo não contém áudio e pode ser pausado; uma imagem estática é usada quando a reprodução está indisponível ou o navegador indica preferência por movimento reduzido ou economia de dados.</p>
     <h2>Dados técnicos da hospedagem</h2>
     <p>A entrega das páginas envolve dados técnicos, como endereço IP, navegador, horário e recurso solicitado. A versão neste endereço é hospedada no GitHub Pages; os registros e a retenção administrados pela plataforma seguem sua <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">declaração de privacidade</a>. Não afirmamos que a navegação seja anônima nem controlamos os registros da plataforma.</p>
     <h2>Cardápio externo e cookies</h2>

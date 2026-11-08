@@ -29,7 +29,7 @@ export const viewport: Viewport = { themeColor: "#260d10" };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return <html lang="pt-BR"><head>
-    <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://pedido.anota.ai; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
+    <meta httpEquiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; font-src 'self'; connect-src 'self'; frame-src https://pedido.anota.ai; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="stylesheet" href={localPath("/assets/fonts/fonts.css")} />
   </head><body>
     <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>

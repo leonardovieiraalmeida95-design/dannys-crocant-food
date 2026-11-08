@@ -1,0 +1,22 @@
+[
+  {
+    "key": "barbecue-scene",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Asset type: background plate for a seamless luxury restaurant website video composition, landscape 1536x1024. A cinematic food advertising studio scene with deep dark burgundy #260d10 negative space across the entire left 55 percent and upper half. At the lower right, an elegant wide shallow almost-black ceramic bowl filled with thick glossy dark reddish-brown BARBECUE sauce, seen from about 30 degrees above, the oval sauce surface centered at x=78 percent, y=76 percent. The top rim begins around y=64 percent. The bowl is cropped naturally at the right and bottom edges, with an understated rim and soft deep shadow. Sauce has smooth viscous folds, sparse beautiful amber highlights, no existing splashes, no food in the bowl. Warm grazing key light from the upper left, sophisticated high-end macro food photography, extremely appetizing, calm and elegant. Upper right mostly empty burgundy so fried chicken pieces can be animated falling into the sauce later. All outer edges blend into burgundy. No text, no brand, no logo, no hands, no utensils, no visible table edge, no whole chicken, no literal flames, no watermark. Keep the bowl and sauce clearly photographic and tactile, not plastic or illustration."
+  },
+  {
+    "key": "crispy-bite",
+    "transparent": true,
+    "prompt": "Use case: product-mockup. Asset type: isolated transparent-background food sprite for an original restaurant video. One single appetizing golden fried boneless chicken bite, roughly oval and slightly irregular with a rich crunchy hand-breaded crust, macro food advertising photography. Three-quarter view, the longest axis angled about 25 degrees clockwise, well-defined crisp craggy flakes and golden amber highlights, subtle darker toasted recesses. Soft warm studio key light from upper left, rich realistic texture, underside slightly darker. Entire bite visible and centered with generous transparent margins, no cut-off edges. Genuine transparent alpha background, no plate, no surface, no baked-in shadow, no sauce, no hands, no text, no garnish, no props, no watermark, not an illustration. This will be animated falling into barbecue sauce; produce only one coherent bite, not a collage."
+  },
+  {
+    "key": "crispy-tender",
+    "transparent": true,
+    "prompt": "Use case: product-mockup. Asset type: isolated transparent-background food sprite for an original restaurant video. One single appetizing small boneless fried chicken tender strip, asymmetrical and tapered, with a genuinely crunchy craggy golden breading, macro food advertising photography. Three-quarter view showing some volume, longest axis diagonally from lower left to upper right. Fine crisp golden flakes, warm amber edges and darker toasted recesses. Soft warm key light from upper left, underside darker, realistic food texture. Entire piece centered and visible with transparent margins. Genuine transparent alpha background. No plate, no surface, no baked-in shadow, no sauce, no hands, no garnish, no text, no logo, no watermark, no other objects, not a collage or illustration."
+  },
+  {
+    "key": "barbecue-splash",
+    "transparent": true,
+    "prompt": "Use case: photorealistic-natural. Asset type: isolated transparent-background barbecue liquid splash layer for a cinematic food video. A small refined splash of thick glossy dark reddish-brown barbecue sauce, seen from 30 degrees above, with a low elliptical impact ring and three short graceful viscous arcs curling outward and upward. A few tiny suspended round sauce droplets close to the arcs, restrained and elegant rather than explosive. Centered composition, wide horizontal silhouette, dark caramel body with beautiful warm amber specular highlights from an upper-left studio light. Photographic viscous liquid, physically plausible thickness, appetizing barbecue glaze, no chicken, no bowl, no surface or background, no text, no logo, no watermark. Genuine transparent alpha background with clear space around every edge. Keep the splash controlled and low, suitable for layering on a sauce bowl surface."
+  }
+]

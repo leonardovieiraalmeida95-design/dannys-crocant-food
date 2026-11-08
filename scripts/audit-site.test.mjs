@@ -79,3 +79,23 @@ test("Optional local HTTP smoke check: home, information pages, assets and genui
   assert.equal(missing.status, 404);
   assert.match(await missing.text(), /Essa página saiu da mesa/);
 });
+
+test("Background videos use fast-start MP4 and stay within the page media budget", async () => {
+  for (const [name, maxBytes] of [["chicken-barbecue-loop.mp4", 4000000], ["chicken-barbecue-loop-mobile.mp4", 1500000]]) {
+    const data = await readFile(`out/assets/backgrounds/${name}`);
+    assert.ok(data.length > 10000 && data.length < maxBytes, name);
+    assert.equal(data.subarray(4, 8).toString(), "ftyp");
+    assert.ok(data.indexOf("moov") > 0 && data.indexOf("moov") < data.indexOf("mdat"), `Fast start: ${name}`);
+  }
+  for (const poster of ["barbecue-poster-wide.webp", "barbecue-poster-mobile.webp"]) {
+    assert.ok((await stat(`out/assets/backgrounds/${poster}`)).isFile());
+  }
+});
+
+test("Optional local video request supports partial loading and seeking", { skip: !process.env.AUDIT_BASE_URL }, async () => {
+  const response = await fetch(`${process.env.AUDIT_BASE_URL.replace(/\/$/, "")}/assets/backgrounds/chicken-barbecue-loop.mp4`, { headers: { Range: "bytes=0-255" } });
+  assert.equal(response.status, 206);
+  assert.equal(response.headers.get("content-type"), "video/mp4");
+  assert.match(response.headers.get("content-range"), /^bytes 0-255\/[0-9]+$/);
+  assert.equal((await response.arrayBuffer()).byteLength, 256);
+});

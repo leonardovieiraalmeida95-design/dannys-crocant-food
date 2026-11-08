@@ -5,3 +5,4 @@ public/assets/
 public/img/
 *.tsbuildinfo
 npm-debug.log*
+.tools/
